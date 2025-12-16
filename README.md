@@ -14,8 +14,8 @@
 
 ### Checking for Updates and making sure Make is installed
 
-	`sudo apt update`
-	`sudo apt install build-essential`
+	`sudo apt update
+	`sudo apt install build-essential
 
 ## Compiling Makefile
 
@@ -25,8 +25,9 @@
 
        Output:
        ```
-	gcc -Wall -Iinclude -O2 -c main.c -o main.o
-	gcc -Wall -Iinclude -O2 -o multi-sensirion main.o src/sensirion_i2c_hal.o src/sensirion_i2c.o src/sensirion_common.o src/sen44_i2c.o src/scd30_i2c.o src/sfa3x_i2c.o
+       gcc -Wall -Iinclude -O2 -c main.c -o main.o
+       gcc -Wall -Iinclude -O2 -o multi-sensirion main.o src/sensirion_i2c_hal.o src/sensirion_i2c.o src/sensirion_common.o src/sen44_i2c.o 
+       src/scd30_i2c.o src/sfa3x_i2c.o
 
        ```
 
