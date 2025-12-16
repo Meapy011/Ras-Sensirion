@@ -1,4 +1,4 @@
-# Atmos-Sen: C code for Sensirion Sensor Read out on Raspberry Pi
+# Ras-Sensirion: C code for Sensirion Sensor Read out on Pi Terminal
 
 <img src="imgs/raspi.png">
 
