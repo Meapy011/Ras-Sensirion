@@ -1,6 +1,6 @@
 # Atmos-Sen: C code for Sensirion Sensor Read out on Raspberry Pi
 
-<img src="imgs/raspberry_pi_logo.png"/>
+<img src="imgs/raspi.png">
 
 ## Resources:
 - [Sensirion Site](https://sensirion.com/)
