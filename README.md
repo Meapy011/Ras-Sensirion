@@ -20,7 +20,7 @@
 ## Compiling Makefile
 
    1. Open a [terminal](https://www.raspberrypi.org/documentation/usage/terminal/)
-   2. Navigate to the directory. E.g. `cd ~/Ras-Sensirion
+   2. Navigate to the directory. E.g. `cd ~/Ras-Sensirion`
    3. Run the `make` command to compile the driver
 
        Output:
