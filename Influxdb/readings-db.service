@@ -1,0 +1,15 @@
+[Unit]
+Description=Sensor readings infux startup script
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi
+ExecStart=/home/pi/sensors-db
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
