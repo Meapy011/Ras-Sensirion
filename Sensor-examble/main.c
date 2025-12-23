@@ -98,7 +98,7 @@ int main(void) {
         /* --- SFA3X --- */
         float hcho = 0.0f, sfa_hum = 0.0f, sfa_temp = 0.0f;
         if (!sfa3x_read_measured_values(&hcho, &sfa_hum, &sfa_temp)) {
-            printf("SFA3X -> HCHO: %.2f ppm, Humidity: %.2f %%, ",
+            printf("SFA3X -> HCHO: %.2f ppb, Humidity: %.2f %%, ",
                    hcho, sfa_hum);
             print_temp(sfa_temp);
             printf("\n");
