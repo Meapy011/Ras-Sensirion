@@ -20,5 +20,5 @@ sudo systemctl daemon-reload
 sudo systemctl enable influxdb1_8.service
 sudo systemctl start influxdb1_8.service
 #Checking version
-sudo systemctl status influxdb1_8.service
+#sudo systemctl status influxdb1_8.service
 
